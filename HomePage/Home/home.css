@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    flex-direction: column;
+    background: #FFFFFF;
+    font-family: 'Poppins';
+    color: #000;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}

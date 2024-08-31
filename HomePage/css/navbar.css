@@ -1,0 +1,64 @@
+.site_header {
+}
+.site_header_container {
+}
+.sitenav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sitenav_logo {
+}
+.sitenav_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.sitenav_list_item_searchinput {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.sitenav_list_item_searchinput_input{
+    width: 400px;
+    height: 40px;
+    padding: 0 0 0 20px;
+    font-size: 17px;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+.sitenav_list_item_searchinput_btn {
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    background: rgb(242, 243, 243);
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+.sitenav_list_item_link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    color: #000;
+}
+.bx-user-circle {
+    font-size: 25px;
+}
+.sitenav_list_item_favorites {
+
+}
+.bx-heart {
+    font-size: 25px;
+}
+.sitenav_list_item_cart {
+
+}
+.bx-cart-add {
+    font-size: 25px;
+}
+@media screen and (max-width: 1240px) {
+    
+}
