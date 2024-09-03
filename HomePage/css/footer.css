@@ -1,0 +1,105 @@
+.site_footer {
+    width: 100%;
+    background: #F5F5F5;
+    margin-top: 180px;
+}
+.site_footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.footer_nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer_nav a {
+    color: #333;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer_nav a i {
+    font-size: 25px;
+    color: #333;
+}
+.footer_nav a:before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #333;
+    opacity: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.footer_nav a:hover:before {
+    opacity: 1;
+    transform: scaleX(1);
+}
+.parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .child {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transition: all 0.3s cubic-bezier(0.68, 0.85, 0.265, 1.85);
+    border-radius: 5px;
+    margin: 0 5px;
+    box-shadow:
+      inset 1px 1px 2px #fff,
+      0 0 5px rgb(68, 68, 68);
+  }
+  
+  .child:hover {
+    background-color: white;
+    background-position:
+      -100px 100px,
+      -100px 100px;
+    transform: perspective(180px) rotateX(60deg) translateY(2px);
+  }
+  
+  .child-1:hover {
+    box-shadow: 0px 10px 10px #1e90ff;
+  }
+  .child-2:hover {
+    box-shadow: 0px 10px 10px #ff00ff;
+  }
+  .child-3:hover {
+    box-shadow: 0px 10px 10px #000;
+  }
+  .child-4:hover {
+    box-shadow: 0px 10px 10px #4267b2;
+  }
+  
+  .button {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.68, -0.85, 0.265, 1.55);
+  }
+  
+  .child:hover > .button {
+    transform: translate3d(0px, 20px, 30px) perspective(80px) rotateX(-60deg)
+      translateY(2px) translateZ(10px);
+  }
+  
