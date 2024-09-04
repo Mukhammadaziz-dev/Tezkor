@@ -23,19 +23,22 @@ body {
         width: 100%;
     }
 }
+.housewares {
+    margin-top: 100px;
+}
 .alements {
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .product-box {
     width: 200px;
     cursor: pointer;
     height: 420px;
+    margin-top: 30px;
 }
-
 .product-image {
     width: 100%;
     border-radius: 10px 10px 0 0;
@@ -47,7 +50,13 @@ body {
     font-size: 14px;
     font-weight: 500;
     margin-top: 10px;
-    height: 55px;
+    height: 75px;
+}
+.like_cost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 .stars {
     margin-top: 10px;
@@ -56,6 +65,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: end;
+}
+.add_cart {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #666;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add_cart .bx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .rating {
     display: flex;
