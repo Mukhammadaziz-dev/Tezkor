@@ -15,7 +15,8 @@ console.log(housew);
 
             umar.innerHTML += `
             <div class="box">
-            <a href="#">   <img src="${item.img}" alt="${item.title}" class="product-image" > </a>
+            
+              <a href="#"> <div class="img">   <img src="${item.img}" alt="${item.title}" class="product-image" ></div>  </a>     
                     <h2 class="product-name">${item.name}</h2>
                     <p class="product-desc">${item.desc}</p>
                     <p class="product-price">$${item.price}</p>
