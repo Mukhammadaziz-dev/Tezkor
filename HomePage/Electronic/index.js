@@ -14,7 +14,7 @@ fetch("https://66ab5539636a4840d7ca3261.mockapi.io/dcd/products")
 
                     clone.querySelector(".product-image").src = item.img;
                     clone.querySelector(".product-image").alt = item.name;
-                    clone.querySelector(".product-name").textContent = item.name;
+                        clone.querySelector(".product-name").textContent = item.name;
                     // clone.querySelector(".product-desc").textContent = item.desc;
                     clone.querySelector(".product-price1").textContent = `$${item.price}`;
 
