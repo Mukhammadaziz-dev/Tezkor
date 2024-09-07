@@ -102,4 +102,12 @@
     transform: translate3d(0px, 20px, 30px) perspective(80px) rotateX(-60deg)
       translateY(2px) translateZ(10px);
   }
-  
+@media screen and (max-width: 600px) {
+  .site_footer_container {
+    display: inline-block;
+    text-align: center;
+  }
+  .sotial_media {
+    margin-top: 50px;
+  }
+}

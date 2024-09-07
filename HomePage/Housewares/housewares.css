@@ -23,6 +23,8 @@
     margin-top: 2rem;
     transform:scale(1.1);
     transition: 1s;    
+    position: relative;
+    top: 50px;
 }
 .box img:hover{
     transform:scale(1.1);
@@ -47,9 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: end;
-    background: yellow;
-    width: 40px;
-    margin-left: 150px;
+   
 }
 .img{
     overflow: hidden;
