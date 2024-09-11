@@ -8,6 +8,8 @@ fetch("https://66ab5539636a4840d7ca3261.mockapi.io/dcd/products")
 
                 let electronics = data.filter(item => item.type === "electronics");
 
+                electronics.reverse();
+
                 electronics.forEach(item => {
                     let clone = template.cloneNode(true);
                     clone.style.display = "block";
